@@ -1,1 +1,1 @@
-# rsschool-cv
+# https://lesyarullina.github.io/rsschool-cv/
