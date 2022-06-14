@@ -1,1 +1,298 @@
-Hello css
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap'); 
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Nanum Myeongjo', serif;
+     src:url("assets/fonts/NanumMyeongjo-Regular.ttf");
+}
+body
+{
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.page {
+    overflow: hidden;
+}
+
+.header {
+    background-color: dimgray;
+    display: flex;
+    justify-content:center;
+    width: 70.7%;
+    cursor: pointer;
+}
+.container-header{
+    padding:0 50px;
+    max-width: 0 auto;
+    min-height: 50px;
+}
+.nav {
+    display: inline-block;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    vertical-align: middle;
+}
+ul { 
+ margin-block-end: 1em;
+ margin-block-start: 1em;
+ margin-inline-start: 0px;
+ margin-inline-end: 0px;
+ padding-inline-start: 40px;
+}
+.nav li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 25px;
+}
+.nav a {
+    vertical-align: middle;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+.nav a:hover {
+    color: black;
+}
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1075px;
+    min-height: 1000px;
+    background: linen;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.container .left-block {
+    position: relative;
+    background-color: grey;
+    padding: 40px;
+}
+.section-profile {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px ;
+}
+.section-profile-foto {
+position: relative;
+width: 241px;
+height: 310px;
+border-radius: 1%;
+overflow: hidden;
+}
+.section-profile-foto img {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.section-title-profile h1 {
+color: white;
+font-size: 28px;
+margin-top: 25px;
+text-transform: uppercase;
+text-align: center;
+font-weight: 600;
+line-height: 2em;
+letter-spacing: 2px;
+}
+.section-title-profile h3 {
+    font-size: 19px;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+}
+.contacts{
+padding-top: 40px;    
+}
+.title-contacts {
+    color:white;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 28px;
+}
+.contacts-list {
+        margin: 0;
+        padding:0;
+        list-style: none;
+        cursor: pointer;
+        text-align: left;
+}
+.text {
+        position: relative;
+        margin: 0;
+        padding: 10px;
+        color:white;
+        font-weight: 300;
+        font-size: 19px;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: 3px;
+    color: white;
+}
+a:hover {
+    color: black;
+}
+.contacts-language {
+    margin-bottom: 15px;
+}
+.title-language {
+    color:white;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 28px;
+}
+.language-list {
+    margin: 0;
+    padding:0;
+    list-style: none;
+    cursor: pointer;
+    text-align: left;
+}
+.language-list li {
+    position: relative;
+    margin: 0;
+    padding: 10px;
+    color:white;
+    font-weight: 300;
+    font-size: 25px;
+    text-decoration: none;
+    display: fixed;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.container .right-block {
+    position: relative;
+    background-color: linen;
+    padding: 60px;
+}
+.about {
+    padding: 15px;
+    max-width: 700px;
+    margin: 25px;
+}
+.about :last-child {
+    margin-bottom: 0;
+}
+.title2 {
+    color:dimgray;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    border-bottom: double 2px dimgray;
+}
+p {
+    display: block;
+    color:gray;
+    text-indent: 30px;
+    text-align: justify;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+.title3 {
+    color:dimgray;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    border-bottom: double 2px dimgray;
+}
+p {
+    display: block;
+    color:gray;
+    text-indent: 30px;
+    text-align: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0;
+    font-size: 20px;
+    font-weight: 400;
+}
+.title4 {
+    color:dimgray;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    border-bottom: double 2px dimgray;
+}
+p {
+    display: block;
+    color:gray;
+    text-indent: 30px;
+    text-align: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0;
+    font-size: 20px;
+    font-weight: 400;
+}
+.title5 {
+    color:dimgray;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    border-bottom: double 2px dimgray;
+}
+pre {
+    display: block;
+    color:gray;
+    text-indent: 30px;
+    text-align: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0;
+    font-size: 20px;
+    font-weight: 400;
+}
+.footer {
+    min-width: 1075px;
+    margin: 0 auto;
+    color: white;
+    background-color: dimgray;
+    padding: 1vh 5%;
+}
+.wrapper {
+    display: flex;
+}
+.footer-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.footer-github-link {
+    color: white;
+    font-weight: 300;
+    line-height: 30px;
+}
+.footer-rsschool-img {
+    width: 100px;
+    height: 50px;
+}
