@@ -22,12 +22,13 @@ body
 
 .header {
     background-color: dimgray;
-    display: flex;
+    display: static;
     justify-content:center;
-    width: 70.7%;
+    width: 1075px;
+    height: auto;
     cursor: pointer;
 }
-.container-header{
+.container-header {
     padding:0 50px;
     max-width: 0 auto;
     min-height: 50px;
@@ -156,12 +157,12 @@ a:hover {
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     text-align: center;
     font-size: 28px;
 }
 .language-list {
-    margin: 0;
+    margin: 0px;
     padding:0;
     list-style: none;
     cursor: pointer;
@@ -194,12 +195,13 @@ a:hover {
 .about :last-child {
     margin-bottom: 0;
 }
-.summary {
+.title2 {
     color:dimgray;
     text-transform: uppercase;
     letter-spacing: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     border-bottom: double 2px dimgray;
+    margin: 20px;
 }
 p {
     display: block;
@@ -214,8 +216,9 @@ p {
     font-weight: 400;
     
 }
-.education {
+.title3 {
     color:dimgray;
+    margin: 20px;
     text-transform: uppercase;
     letter-spacing: 5px;
     margin-bottom: 20px;
@@ -233,8 +236,9 @@ p {
     font-size: 20px;
     font-weight: 400;
 }
-.skills {
+.title4 {
     color:dimgray;
+    margin: 20px;
     text-transform: uppercase;
     letter-spacing: 5px;
     margin-bottom: 20px;
@@ -252,8 +256,9 @@ p {
     font-size: 20px;
     font-weight: 400;
 }
-.courses {
+.title5 {
     color:dimgray;
+    margin: 20px;
     text-transform: uppercase;
     letter-spacing: 5px;
     margin-bottom: 20px;
@@ -271,8 +276,9 @@ p {
     font-size: 20px;
     font-weight: 400;
 }
-.code {
+.title6 {
     color:dimgray;
+    margin: 20px;
     text-transform: uppercase;
     letter-spacing: 5px;
     margin-bottom: 20px;
