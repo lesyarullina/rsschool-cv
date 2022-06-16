@@ -148,7 +148,7 @@ a {
 a:hover {
     color: black;
 }
-.contacts-language {
+.language {
     margin-bottom: 15px;
 }
 .title-language {
@@ -184,6 +184,7 @@ a:hover {
     position: relative;
     background-color: linen;
     padding: 60px;
+    width: 100%;
 }
 .about {
     padding: 15px;
@@ -193,7 +194,7 @@ a:hover {
 .about :last-child {
     margin-bottom: 0;
 }
-.title2 {
+.summary {
     color:dimgray;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -213,7 +214,7 @@ p {
     font-weight: 400;
     
 }
-.title3 {
+.education {
     color:dimgray;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -232,7 +233,7 @@ p {
     font-size: 20px;
     font-weight: 400;
 }
-.title4 {
+.skills {
     color:dimgray;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -251,7 +252,26 @@ p {
     font-size: 20px;
     font-weight: 400;
 }
-.title5 {
+.courses {
+    color:dimgray;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    border-bottom: double 2px dimgray;
+}
+p {
+    display: block;
+    color:gray;
+    text-indent: 30px;
+    text-align: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0;
+    font-size: 20px;
+    font-weight: 400;
+}
+.code {
     color:dimgray;
     text-transform: uppercase;
     letter-spacing: 5px;
