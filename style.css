@@ -296,6 +296,26 @@ pre {
     font-size: 20px;
     font-weight: 400;
 }
+.title7 {
+    color:dimgray;
+    margin: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    border-bottom: double 2px dimgray;
+}
+pre {
+    display: block;
+    color:gray;
+    text-indent: 30px;
+    text-align: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0;
+    font-size: 20px;
+    font-weight: 400;
+}
 .footer {
     min-width: 1075px;
     margin: 0 auto;
